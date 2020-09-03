@@ -113,6 +113,7 @@ function getNr(elemNr, high){
 function addFruits(){
     let amount;
     let imgList;
+    let i;
 
     
 
@@ -127,6 +128,11 @@ function addFruits(){
     amount=getNr(3, 9);
 
     if( amount !== null){
+        imgList="";
+        for(i=0;i<amount;i++){
 
+            imgList+="<img src='./pics/fruit"+ fruitNr + ".jpg' alt='frukt'>";
+        }
+        selFruitsElem.innerHTML += imgList;
     }
 }

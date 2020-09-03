@@ -1,0 +1,18 @@
+.smallbox{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(91, 18, 160);
+    display: inline-block;
+}
+
+.bigbox{
+    width: 610px;
+    height: 610px;
+    background-color: rgb(190, 15, 15);
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+
+
