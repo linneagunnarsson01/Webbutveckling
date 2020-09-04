@@ -9,8 +9,9 @@
 /* Style the body */
 body {
   font-family: Arial;
-  margin: 0;
+  margin: auto;
   background: #ddd;
+  max-width: 980px;
 }
 
 /* Header/logo Title */
@@ -34,6 +35,8 @@ nav a {
   text-decoration: none;
   text-align: center;
   transition: all .3s;
+  display: block;
+  padding: 10px;
 }
 
 /* Change color on hover */
@@ -51,15 +54,16 @@ nav a:hover {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  float: left;
-  width: 30%;
+ /* float: left;
+  width: 30%;*/
   padding: 20px;
 }
 
 /* Main column */
 main {
-  float:  left;
-  width: 70%;
+  /*float:  left;
+  width: 70%;*/
+  width: 100%;
   padding: 20px;
 }
 
@@ -77,16 +81,23 @@ footer {
   background: #ddd;
 }
 
-/* to small divices */
-@media (max-width: 500px) {
+/* to big divices */
+@media (min-width: 500px) {
   nav a{
-    display: block;
-    padding: 10px;;
+    /*display: block;
+    padding: 10px;*/
+    display: inline;
   }
-  .side, main{
-    width: 100%;
-    float: none;
+  main{
+    float: left;
+    width: 70%;
+    /*width: 100%;
+    float: none;*/
  
+  }
+  .side{
+    float: left;
+    width: 30%;
   }
 }
 
