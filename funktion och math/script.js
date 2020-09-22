@@ -21,8 +21,10 @@ function array(){
      }
 
     }
+
     function arrayHundra(){
         let array=[];
+        
         
         for(let i=0; i<=100; i++ ){
    
@@ -31,4 +33,6 @@ function array(){
    
         }
     } 
+
+
     
