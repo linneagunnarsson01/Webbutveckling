@@ -1,0 +1,23 @@
+
+h1{
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+}
+
+nav{
+    margin: auto;
+    background-color: rgb(71, 101, 165);
+    padding: 30px;
+}

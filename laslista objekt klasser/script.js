@@ -6,7 +6,16 @@ class book {
     }
 
     info(){
-        return this.title + " av " +  this.author; //retunerar titel av författare
+
+        if(this.hasRead== true){
+            return " Jag har läst " + this.title + " av " + this.author;
+
+        }else{
+            return " Jag har ännu inte läst " + this.title + " av " + this.author;
+
+        }
+
+        //return "Jag har läst" + this.title + " av " +  this.author + ; //retunerar titel av författare
     }
 
 }
@@ -19,7 +28,7 @@ class book {
     new book("hejdå","kreaktiv", false)
 ];
 
-
+//loop för att skriva ut listan från arrayn
 for( let i=0; i < list.length; i++ ){
     console.log(list[i].info());
 }
