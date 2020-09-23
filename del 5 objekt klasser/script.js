@@ -32,11 +32,4 @@ for(let i=0; i < myObject.steps.length; i++){
     console.log(myObject.steps[i]) //skriver ut steg för steg
 
 }
-
-
-
-
-
- // loop för ingridienser och steg för steg
- //loop för ingridienserna
  
