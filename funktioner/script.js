@@ -7,6 +7,12 @@ document.write(sum(tal1 , tal2));
 document.write(doCalculations(tal3 ));
 document.write(math(tal));
 
+
+if(palindrom(ord)){ 
+    document.write("Palindrom");
+}else{ document.write("Inte ett palindrom");
+}
+
 function sum(min, max)
 {
     let summa=0;
@@ -38,7 +44,16 @@ function math(tal)
 
 function palindrom(ord)
 {
-    
+    let len = ord.length;
+ 
+    for(let i = 0; i < len/2; i++){
+        if (ord[i] !== ord[len - 1 - i]) {
+            return false;
+        }
+
+
+    }
+    return true;
 }
 
 
