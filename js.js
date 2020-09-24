@@ -2,7 +2,15 @@
 var uppgifter = [
     "./Uppgift 4/index.htm",
     "./Uppgift5/index.htm",
-    "./uppgift 6/index.html"
+    "./uppgift 6/index.html",
+    "./Uppgift 8/index.html",
+    "./Uppgift 9/index.html",
+    "./laslista objekt klasser./index.html",
+    "./funktioner/index.html",
+    "./funktion och math/index.html",
+    "./del 5 objekt klasser/inxex.html"
+
+
 ];
 
 
