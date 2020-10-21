@@ -1,0 +1,56 @@
+
+body{
+    background-color: turquoise;
+    display: grid;
+    grid-template-rows: auto;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+}
+form{
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+textarea{
+    resize: none;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+fieldset{
+    display: grid;
+    grid-template-rows: auto auto auto;
+
+}
+
+input{
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+header{
+    background-color: violet;
+    display: grid;
+    grid-template-rows: auto auto;
+
+
+}
+
+section{
+    height: 100px;
+    width: 90%;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 10px;
+
+}
+

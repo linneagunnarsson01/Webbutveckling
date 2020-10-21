@@ -10,12 +10,13 @@ function Size(changeSize){
 
 Size(50);
 
+// funktionens funktion är att göra ballongen mindre vid arrowDown och större vid arrowUp och att byta ut ballongen om texten är större än 400 px
 function Pil(event){
     if (event.key === "ArrowUp"){
 
         // Om size( motsvarar ballongens storlek) blir stärre än 400 px kommer den byta till explotionemoley
         if(size> 400){
-            p.textContent = "💥";
+            p.textContent = "💥"; // byter ut ballongen till en explotion om ifsatsen stämmer
 
             document.body.removeEventListener("keydown", Pil);
             // om inte size är över 400 px kommer ballongens storlek öka med 10% om användaren trycker arrowUp
